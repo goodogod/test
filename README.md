@@ -4,7 +4,7 @@ test
 ```pascal
 procedure TLayerViewer.InitialDisplayParams;
 begin
-  FRealRange:=Rect(0, 0, FPaintBoxRef.Width, FPaintBoxRef.Height); // åå§ååè¨­è·ç«å¸ä¸æ¨£
+  FRealRange:=Rect(0, 0, FPaintBoxRef.Width, FPaintBoxRef.Height); // 哈哈
   FViewRange:=Rect(0, 0, FPaintBoxRef.Width, FPaintBoxRef.Height);
 
   FVertiCurViewPosition   := 0;
